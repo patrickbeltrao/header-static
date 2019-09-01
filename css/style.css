@@ -7,29 +7,80 @@
     font-family: 'Libre Caslon Display', serif;
     font-size: 1.8em;
     color: white;
-    padding: 1em;
-
-}
-
-.img-foto{ /** imagem do perfil **/
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    position: absolute;
-    left: 2em;
-    top: 5em;
-}
-
-.icons-ul-header li{ /** icones do header **/
+    background-image: linear-gradient(black, blueviolet);
     
-    width: 2em;
-    height: 2em;
+}
+
+.header-container h1{
+    position: absolute;
+    top: .5em;
+    left: .8em;
+
+    text-shadow: 2px 1px .5px black;
+}
+
+.img-back{  /** img background header  **/
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.icons-ul-header{  /**icons header  **/
+    position: absolute;
+    bottom: .5em;
+    left: 2em;
+    
+}
+
+.icons-ul-header li{  /** icons header **/
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.icons-ul-header li img{ /** icones do header **/
+    
+    width: 1.3em;
+    height: 1.3em;
+    margin-right: 2em;
+    
+}
+
+.nav-header{    /** nav header  **/
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 8em;
+    right: 3.5em;
+}
+
+.link-ul-nav li{
     display: inline-block;
     list-style-type: none;
-    margin-right: 2em;
-
-
+    margin-bottom: 1em;
 }
+
+.link-ul-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-ul-nav a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .div-container{
     width: 65%;
@@ -41,5 +92,5 @@
     box-sizing: border-box;
     overflow: auto;
     background-image: linear-gradient(blueviolet, darkblue);
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
