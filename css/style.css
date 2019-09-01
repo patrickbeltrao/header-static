@@ -1,16 +1,34 @@
 .header-container{
-    background: red;
     width: 35%;
     height: 100%;
     position: fixed;
     left: 0;
     top: 0;
-    background-image: url(./image/fundo-de-tecnologia-com-cores-gradientes_23-2147837710.jpg);
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.8em;
+    color: white;
+    padding: 1em;
+
 }
 
-.header-container img{
-    width: 100%;
-    height: 100%;
+.img-foto{ /** imagem do perfil **/
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    position: absolute;
+    left: 2em;
+    top: 5em;
+}
+
+.icons-ul-header li{ /** icones do header **/
+    
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 2em;
+
+
 }
 
 .div-container{
@@ -20,4 +38,8 @@
     position: fixed;
     left: 35%;
     top: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    background-image: linear-gradient(blueviolet, darkblue);
+    background-attachment: fixed;
 }
