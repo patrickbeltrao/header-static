@@ -1,0 +1,23 @@
+.header-container{
+    background: red;
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(./image/fundo-de-tecnologia-com-cores-gradientes_23-2147837710.jpg);
+}
+
+.header-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-container{
+    width: 65%;
+    height: 100%;
+    background: orange;
+    position: fixed;
+    left: 35%;
+    top: 0;
+}
