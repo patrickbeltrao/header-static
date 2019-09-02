@@ -46,38 +46,41 @@ body{
     font-family: 'Bad Script', cursive;
     text-shadow: -2px 2px .5px black;
     margin: 0;
-    animation: opac 7s ease-in;
+    animation: opac 6s ease-in;
 
 }
 
 
+                /**icons header  **/
 
-
-.icons-ul-header{  /**icons header  **/
+.icons-ul-header{ 
     position: absolute;
     bottom: .5em;
     left: 2em;
     
 }
 
-.icons-ul-header li{  /** icons header **/
+.icons-ul-header li{ 
     list-style-type: none;
     display: inline-block;
     margin-right: 70px;
     
 } 
 
-.fab{       /** icons header   **/
+.fab{       
     font-size: 1.3em;
     color: silver;
    
 }
 
-.fab:hover{         /** icons header   **/
+.fab:hover{         
     color: green;
 }
 
-.nav-header{    /** nav header  **/
+
+                /** nav header  **/
+
+.nav-header{    
     width: 3em;
     height: 3em;
     position: absolute;
@@ -100,6 +103,7 @@ body{
     transform: translate(63px, 40px);
    
 }
+
 .link-ul-nav li:nth-child(2){
     transform: translate(90px, 40px);
     
@@ -120,7 +124,9 @@ body{
     color: rgb(6, 236, 6);
 }
 
-/** MAIN  **/
+
+
+                /** MAIN  **/
 
 .div-container{
     width: 65%;
@@ -161,8 +167,9 @@ p{
 
 /** SEÇÃO DO HTML  **/
 
-.sect-html{
+#sect-html{
     width: 100%;
+    height: 230vh;
     background: rgba(255, 255, 255, .1);
 }
 
@@ -187,8 +194,9 @@ p{
 
 /** SEÇÃO DO CSS  **/
 
-.sect-css{
+#sect-css{
     width: 100%;
+    height: 210vh;
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -208,9 +216,10 @@ p{
 /** SEÇÃO DO JAVASCRIPT  **/
 
 
-.sect-js{
+#sect-js{
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
+    transition: all 4s ease;
 }
 
 .art-js{
