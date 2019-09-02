@@ -93,16 +93,16 @@ body{
 
 }
 
+/** SEÇÃO DO HTML  **/
+
 .sect-html{
     width: 100%;
-    height: 100vh;
-    background: silver;
+    background: rgba(221, 219, 219, 0.377);
 }
 
 .art-html{
     width: 100%;
-    background: red;
-    
+
 }
 
 .art-html img{
@@ -113,6 +113,7 @@ body{
 
 .art-html h2{
     margin: 0 0 .5em;
+    padding-top: .6em;
     text-align: center;
     font-size: 5em;
     text-transform: uppercase;
@@ -120,4 +121,98 @@ body{
     text-shadow: 1px 1px .5px white;
 
     
+}
+
+.art-html p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: white;
+    line-height: 2;
+    letter-spacing: 1.3px;
+    text-align: center;
+    padding: 1em;
+}
+
+.art-html pre{
+    color: silver;
+}
+
+/** SEÇÃO DO CSS  **/
+
+.sect-css{
+    width: 100%;
+    background: rgba(221, 219, 219, 0.377);
+}
+
+.art-css{
+    width: 100%; 
+}
+
+.art-css img{
+    width: 30%;
+    height: 30%;
+    margin: .5em 36%;
+}
+
+.art-css h2{
+    margin: 0 0 .5em;
+    padding-top: .5em;
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px .5px white;
+
+    
+}
+
+.art-css p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: white;
+    line-height: 2;
+    letter-spacing: 1.3px;
+    text-align: center;
+    padding: 1em;
+}
+
+/** SEÇÃO DO JAVASCRIPT  **/
+
+
+.sect-js{
+    width: 100%;
+    background: rgba(221, 219, 219, 0.377);
+}
+
+.art-js{
+    width: 100%; 
+}
+
+.art-js img{
+    width: 30%;
+    height: 30%;
+    margin: .5em 36%;
+    border-radius: 50%;
+}
+
+.art-js h2{
+    margin: 0 0 .5em;
+    padding-top: .5em;
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px .5px white;
+
+    
+}
+
+.art-js p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: white;
+    line-height: 2;
+    letter-spacing: 1.3px;
+    text-align: center;
+    padding: 1em;
 }
