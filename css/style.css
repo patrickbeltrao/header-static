@@ -97,7 +97,7 @@ body{
 
 .sect-html{
     width: 100%;
-    background: rgba(221, 219, 219, 0.377);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .art-html{
@@ -109,6 +109,7 @@ body{
     width: 30%;
     height: 30%;
     margin: .5em 36%;
+    padding: 40px 0;
 }
 
 .art-html h2{
@@ -141,7 +142,7 @@ body{
 
 .sect-css{
     width: 100%;
-    background: rgba(221, 219, 219, 0.377);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .art-css{
@@ -152,6 +153,8 @@ body{
     width: 30%;
     height: 30%;
     margin: .5em 36%;
+    padding: 40px 0;
+    
 }
 
 .art-css h2{
@@ -181,7 +184,7 @@ body{
 
 .sect-js{
     width: 100%;
-    background: rgba(221, 219, 219, 0.377);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .art-js{
@@ -192,7 +195,8 @@ body{
     width: 30%;
     height: 30%;
     margin: .5em 36%;
-    border-radius: 50%;
+    padding: 40px 0;
+    
 }
 
 .art-js h2{
