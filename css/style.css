@@ -1,3 +1,13 @@
+@keyframes opac{
+    0%{
+    opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 body{
     font-family: 'Libre Caslon Display', serif;
 }
@@ -20,9 +30,27 @@ body{
 .header-container h1{
     position: absolute;
     top: .5em;
-    left: .8em;
-    text-shadow: 2px 1px .5px black;
+    left: 1.6em;
+    text-shadow: 2px 2px .5px black;
+    animation: opac 4s ease;
+    font-family: 'Great Vibes', cursive;
 }
+
+#para-header{
+    font-size: .8em;
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 7em;
+    left: .8em;
+    font-family: 'Bad Script', cursive;
+    text-shadow: -2px 2px .5px black;
+    margin: 0;
+    animation: opac 7s ease-in;
+
+}
+
+
 
 
 .icons-ul-header{  /**icons header  **/
@@ -46,7 +74,7 @@ body{
 }
 
 .fab:hover{         /** icons header   **/
-    color: orange;
+    color: green;
 }
 
 .nav-header{    /** nav header  **/
@@ -69,16 +97,17 @@ body{
 
 
 .link-ul-nav li:nth-child(1){
-    transform: translateX(63px);
+    transform: translate(63px, 40px);
+   
 }
-
-
 .link-ul-nav li:nth-child(2){
-    transform: translateX(93px);
+    transform: translate(90px, 40px);
+    
 }
 
 .link-ul-nav li:nth-child(3){
-    transform: translateX(120px);
+    transform: translate(120px, 40px);
+    
 }
 
 .link-ul-nav a{
@@ -88,7 +117,7 @@ body{
 }
 
 .link-ul-nav a:hover{
-    color: orange;
+    color: rgb(6, 236, 6);
 }
 
 /** MAIN  **/
