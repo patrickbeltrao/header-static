@@ -54,18 +54,37 @@ body{
     height: 3em;
     position: absolute;
     top: 8em;
-    right: 3.5em;
+    right: 5em;
 }
 
 .link-ul-nav li{
+    padding: 3px 12px;
     display: inline-block;
     list-style-type: none;
     margin-bottom: 1em;
+    border: 1px solid white;
+    box-shadow: 3px 2px .5px white;
+  
+}
+
+
+.link-ul-nav li:nth-child(1){
+    transform: translateX(63px);
+}
+
+
+.link-ul-nav li:nth-child(2){
+    transform: translateX(93px);
+}
+
+.link-ul-nav li:nth-child(3){
+    transform: translateX(120px);
 }
 
 .link-ul-nav a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 
 .link-ul-nav a:hover{
@@ -112,18 +131,6 @@ body{
     padding: 40px 0;
 }
 
-.art-html h2{
-    margin: 0 0 .5em;
-    padding-top: .6em;
-    text-align: center;
-    font-size: 5em;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-shadow: 1px 1px .5px white;
-
-    
-}
-
 .art-html p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -157,18 +164,6 @@ body{
     
 }
 
-.art-css h2{
-    margin: 0 0 .5em;
-    padding-top: .5em;
-    text-align: center;
-    font-size: 5em;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-shadow: 1px 1px .5px white;
-
-    
-}
-
 .art-css p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -199,17 +194,6 @@ body{
     
 }
 
-.art-js h2{
-    margin: 0 0 .5em;
-    padding-top: .5em;
-    text-align: center;
-    font-size: 5em;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-shadow: 1px 1px .5px white;
-
-    
-}
 
 .art-js p{
     font-family: Arial, Helvetica, sans-serif;
@@ -219,4 +203,20 @@ body{
     letter-spacing: 1.3px;
     text-align: center;
     padding: 1em;
+}
+
+.footer-container{
+    width: 100%;
+    height: 4em;
+    background-color: black;
+   
+}
+
+.footer-container p{
+    padding: 15px 0 5px;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
 }
