@@ -11,7 +11,9 @@ body{
     font-family: 'Libre Caslon Display', serif;
     font-size: 1.8em;
     color: white;
-    background-image: linear-gradient(black, blueviolet);
+    background-image: url(../image/fundo-verde-favo-de-mel-tecnologico_23-2148261845.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -19,7 +21,6 @@ body{
     position: absolute;
     top: .5em;
     left: .8em;
-
     text-shadow: 2px 1px .5px black;
 }
 
