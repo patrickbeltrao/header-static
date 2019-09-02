@@ -81,11 +81,13 @@ body{
                 /** nav header  **/
 
 .nav-header{    
-    width: 3em;
+    width: 11em;
     height: 3em;
     position: absolute;
-    top: 8em;
+    top: 11em;
     right: 5em;
+    
+    
 }
 
 .link-ul-nav li{
@@ -100,17 +102,17 @@ body{
 
 
 .link-ul-nav li:nth-child(1){
-    transform: translate(63px, 40px);
+    transform: translate(0px);
    
 }
 
 .link-ul-nav li:nth-child(2){
-    transform: translate(90px, 40px);
+    transform: translate(50px);
     
 }
 
 .link-ul-nav li:nth-child(3){
-    transform: translate(120px, 40px);
+    transform: translate(100px);
     
 }
 
